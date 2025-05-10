@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carta Especial Para Mamá 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+  <div class="corazones-rain" id="corazonesRain"></div>
+  
+  <div class="container">
+    <div class="flores" id="flores"></div>
+    
+    <div class="sobre-container">
+      <div class="sobre">
+        <div class="corazon"></div>
+      </div>
+      <div class="tapa" id="tapa"></div>
+    </div>
+
+    <div id="carta">
+      <h1 class="animate__animated animate__fadeIn">Feliz Día de las Madres</h1>
+      <p class="animate__animated animate__fadeIn animate__delay-1s">
+        Mamá, cada día me sorprende más tu fortaleza, tu amor incondicional y tu sonrisa que ilumina mi mundo.
+        Esta carta está hecha con todo mi corazón para recordarte lo especial que eres.
+        Gracias por cada abrazo, cada consejo y por ser mi mayor ejemplo.
+      </p>
+      <button class="btn animate__animated animate__pulse animate__infinite" onclick="mostrarMensajes()">Ver mensajes especiales ✨</button>
+      
+      <div id="mensajes">
+        <ul>
+          <li>💌 Gracias por cuidarme siempre, incluso cuando no te das cuenta.</li>
+          <li>💪 Admiro tu fuerza para enfrentar cualquier desafío.</li>
+          <li>💖 Tu amor es el regalo más valioso que he recibido.</li>
+          <li>✨ Me inspiras a ser mejor persona cada día.</li>
+          <li>🌹 Te amo infinitamente, hoy y siempre.</li>
+        </ul>
+      </div>
+      
+      <div class="firma animate__animated animate__fadeIn animate__delay-2s">
+        Con todo mi amor,<br>
+        Tu hij@ que te adora
+      </div>
+    </div>
+
+    <button class="abrir-btn animate__animated animate__pulse animate__infinite" onclick="abrirSobre()">Abrir carta 💌</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
